@@ -17,14 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10S" translatesAutoresizingMaskIntoConstraints="NO" id="eGc-FD-gEq">
-                                <rect key="frame" x="82" y="168" width="250" height="360"/>
+                                <rect key="frame" x="82" y="193" width="250" height="360"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="360" id="mxD-8r-pwD"/>
                                     <constraint firstAttribute="width" constant="250" id="w2B-A4-fmG"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQt-op-p3j">
-                                <rect key="frame" x="77" y="588" width="260" height="50"/>
+                                <rect key="frame" x="77" y="603" width="260" height="50"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="jaC-1U-FDD"/>
@@ -36,7 +36,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2E1-qX-eGT">
-                                <rect key="frame" x="77" y="658" width="115" height="50"/>
+                                <rect key="frame" x="77" y="673" width="115" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="GKu-4d-sAo"/>
@@ -48,7 +48,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9B-MO-Svz">
-                                <rect key="frame" x="222" y="658" width="115" height="50"/>
+                                <rect key="frame" x="222" y="673" width="115" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="115" id="FSS-Tz-uku"/>
@@ -63,9 +63,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="eGc-FD-gEq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="2Y2-oX-tr6"/>
+                            <constraint firstItem="eGc-FD-gEq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-75" id="2Y2-oX-tr6"/>
                             <constraint firstItem="2E1-qX-eGT" firstAttribute="leading" secondItem="gQt-op-p3j" secondAttribute="leading" id="3TF-0e-mWk"/>
-                            <constraint firstItem="gQt-op-p3j" firstAttribute="top" secondItem="eGc-FD-gEq" secondAttribute="bottom" constant="60" id="AXm-aF-abh"/>
+                            <constraint firstItem="gQt-op-p3j" firstAttribute="top" secondItem="eGc-FD-gEq" secondAttribute="bottom" constant="50" id="AXm-aF-abh"/>
                             <constraint firstItem="2E1-qX-eGT" firstAttribute="top" secondItem="gQt-op-p3j" secondAttribute="bottom" constant="20" id="Bb4-VS-wsN"/>
                             <constraint firstItem="gQt-op-p3j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BcR-65-L9p"/>
                             <constraint firstItem="B9B-MO-Svz" firstAttribute="trailing" secondItem="gQt-op-p3j" secondAttribute="trailing" id="I9I-Ep-yIe"/>
