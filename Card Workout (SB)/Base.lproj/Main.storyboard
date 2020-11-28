@@ -65,7 +65,6 @@
                                     <color key="titleColor" red="0.94509803920000002" green="0.95294117649999999" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="rulesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rgQ-Fw-QPm"/>
                                     <segue destination="RvU-Fc-2Oe" kind="presentation" id="Iv5-8F-Um2"/>
                                 </connections>
                             </button>

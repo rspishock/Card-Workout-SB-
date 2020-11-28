@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941C622B2571C94B00A4E423 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941C622A2571C94B00A4E423 /* Deck.swift */; };
 		94460C7F2571605100C74BF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94460C7E2571605100C74BF0 /* AppDelegate.swift */; };
 		94460C812571605100C74BF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94460C802571605100C74BF0 /* SceneDelegate.swift */; };
 		94460C862571605100C74BF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94460C842571605100C74BF0 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		941C622A2571C94B00A4E423 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		94460C7B2571605100C74BF0 /* Card Workout (SB).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Workout (SB).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94460C7E2571605100C74BF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94460C802571605100C74BF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				94460C7E2571605100C74BF0 /* AppDelegate.swift */,
 				94460C802571605100C74BF0 /* SceneDelegate.swift */,
 				94460C94257160DB00C74BF0 /* CardSelectionVC.swift */,
+				941C622A2571C94B00A4E423 /* Deck.swift */,
 				94460C842571605100C74BF0 /* Main.storyboard */,
 				94460C872571605300C74BF0 /* Assets.xcassets */,
 				94460C892571605300C74BF0 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941C622B2571C94B00A4E423 /* Deck.swift in Sources */,
 				94460C7F2571605100C74BF0 /* AppDelegate.swift in Sources */,
 				94460C812571605100C74BF0 /* SceneDelegate.swift in Sources */,
 				94460C95257160DB00C74BF0 /* CardSelectionVC.swift in Sources */,
